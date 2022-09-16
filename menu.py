@@ -3,6 +3,7 @@ obj=Ingrediente()
 def preparar():
     op=""
     while op!="6":
+        print("*****Ingredientes*****")
         print("1.Salchicha")
         print("2.Chorizo")
         print("3.Salami")
