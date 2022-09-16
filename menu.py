@@ -9,6 +9,7 @@ def preparar():
         print("4.Longaniza")
         print("5.Costilla")
         print("6.Ordenar")
+        print("7.Regresar")
         op=input("Ingrese opción:\n")
         if op=="1":
             opcion=int(input("Ingrese cantidad:\n"))
@@ -28,6 +29,8 @@ def preparar():
         elif op=="6":
             obj.anniadir()
             obj.eliminiar()
+            menu()
+        elif op=="7":
             menu()
             
 

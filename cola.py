@@ -27,7 +27,7 @@ class Cola:
     def desencolar(self):
         actual=self.primero
         if actual is None:
-            print("La cola está vacía")
+            return 
         self.primero=actual.siguiente
         actual.siguiente=None
     
